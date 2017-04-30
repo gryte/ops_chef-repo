@@ -27,7 +27,8 @@
             "download_location": "/.deluge/staging",
             "utpex": "false",
             "dht": "false",
-            "lsd": "false"
+            "lsd": "false",
+            "random_port": "false"
           }
         },
         "label.conf": true
