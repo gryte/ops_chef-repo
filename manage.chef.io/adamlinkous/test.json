@@ -5,7 +5,7 @@
     "delugeserver": "= 1.4.2",
     "jenkinsserver": "= 0.1.0",
     "7dtdserver": "= 1.2.0",
-    "dockerserver": "= 0.1.0",
+    "dockerserver": "= 1.1.0",
     "plexserver": "= 0.8.0"
   },
   "json_class": "Chef::Environment",
