@@ -7,7 +7,8 @@
   },
   "description": "The Deluge Server role",
   "run_list": [
-    "recipe[delugeserver::default]"
+    "recipe[delugeserver::default]",
+    "recipe[manage_nfs::default]"
   ],
   "override_attributes": {
     "deluge": {
@@ -62,6 +63,10 @@
           }
         }
       }
+    },
+    "nfs_exports": {
+      "config": true,
+      "nfs_server": "delugeserver_nfs"
     }
   }
 }
