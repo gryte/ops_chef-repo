@@ -15,60 +15,6 @@
 
   },
   "override_attributes": {
-    "id": "custom_override",
-    "deluge": {
-      "config": {
-        "auth": true,
-        "core.conf": {
-          "manage": true,
-          "settings": {
-            "move_completed_path": "/.deluge/complete",
-            "move_completed": "true",
-            "allow_remote": "true",
-            "download_location": "/.deluge/staging",
-            "utpex": "false",
-            "dht": "false",
-            "lsd": "false",
-            "random_port": "false"
-          }
-        },
-        "label.conf": true
-      },
-      "plugin": {
-        "enable": [
-          "AutoAdd",
-          "Label"
-        ]
-      },
-      "app": {
-        "directories": {
-          "/.deluge": {
-            "owner": "deluge",
-            "group": "deluge"
-          },
-          "/.deluge/staging": {
-            "owner": "deluge",
-            "group": "deluge"
-          },
-          "/.deluge/prep": {
-            "owner": "deluge",
-            "group": "deluge"
-          },
-          "/.deluge/complete": {
-            "owner": "deluge",
-            "group": "deluge"
-          },
-          "/.deluge/complete/tv": {
-            "owner": "deluge",
-            "group": "deluge"
-          },
-          "/.deluge/complete/movie": {
-            "owner": "deluge",
-            "group": "deluge"
-          }
-        }
-      }
-    },
     "7dtdserver": {
       "serversettings": {
         "servername": "7dtdserver_test",
