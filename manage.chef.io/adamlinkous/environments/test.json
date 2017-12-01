@@ -25,6 +25,11 @@
         "controlpanelenabled": "true",
         "controlpanelport": "8083"
       }
+    },
+    "firewall": {
+      "firewalld": {
+        "permanent": true
+      }
     }
   }
 }
