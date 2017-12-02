@@ -7,7 +7,7 @@
     "jenkinsserver": "= 1.0.0",
     "dockerserver": "~> 1.3",
     "plexserver": "~> 0.8",
-    "manage_nfs": "= 0.1.0"
+    "manage_nfs": "~> 0.1"
   },
   "json_class": "Chef::Environment",
   "chef_type": "environment",
