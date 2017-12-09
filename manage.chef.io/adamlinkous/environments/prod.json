@@ -2,7 +2,7 @@
   "name": "prod",
   "description": "prod",
   "cookbook_versions": {
-    "delugeserver": "= 2.0.1",
+    "delugeserver": "~> 2.0",
     "7dtdserver": "= 1.2.0",
     "jenkinsserver": "= 1.0.0",
     "dockerserver": "~> 1.3",
