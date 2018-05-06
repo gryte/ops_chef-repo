@@ -7,6 +7,7 @@
   },
   "description": "The Deluge Server role",
   "run_list": [
+    "recipe[mywrapper_chef-client::default]",
     "recipe[mywrapper_chef_client_updater::default]",
     "recipe[delugeserver::default]",
     "recipe[manage_nfs::default]"
