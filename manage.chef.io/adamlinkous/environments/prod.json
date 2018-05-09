@@ -5,11 +5,11 @@
     "delugeserver": "~> 2.0",
     "7dtdserver": "= 1.2.0",
     "jenkinsserver": "= 1.0.0",
-    "dockerserver": "~> 1.3",
-    "plexserver": "~> 0.8",
-    "manage_nfs": "~> 0.1",
-    "mywrapper_chef_client_updater": "~> 0.1",
-    "mywrapper_chef-client": "~> 0.1"
+    "dockerserver": "~> 1.3.0",
+    "plexserver": "~> 0.8.0",
+    "manage_nfs": "~> 0.1.0",
+    "mywrapper_chef_client_updater": "~> 0.2.0",
+    "mywrapper_chef-client": "~> 0.1.0"
   },
   "json_class": "Chef::Environment",
   "chef_type": "environment",
