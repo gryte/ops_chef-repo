@@ -29,12 +29,14 @@
             "random_port": "false"
           }
         },
-        "label.conf": true
+        "label.conf": true,
+        "extractor.conf": true
       },
       "plugin": {
         "enable": [
           "AutoAdd",
-          "Label"
+          "Label",
+          "Extractor"
         ]
       },
       "app": {
