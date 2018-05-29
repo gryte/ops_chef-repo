@@ -1,0 +1,16 @@
+{
+  "name": "base_role",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+
+  },
+  "description": "The base role for all servers",
+  "run_list": [
+    "recipe[mywrapper_chef-slack_handler::default]",
+    "recipe[mywrapper_chef-client::default]",
+    "recipe[mywrapper_chef_client_updater::default]"
+  ],
+  "override_attributes": {
+  }
+}

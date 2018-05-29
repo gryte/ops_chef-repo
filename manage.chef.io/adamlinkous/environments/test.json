@@ -9,7 +9,8 @@
     "plexserver": ">= 0.8.0",
     "manage_nfs": ">= 0.1.0",
     "mywrapper_chef_client_updater": ">= 0.1.0",
-    "mywrapper_chef-client": ">= 0.1.0"
+    "mywrapper_chef-client": ">= 0.1.0",
+    "mywrapper_chef-slack_handler": ">= 0.1.0"
   },
   "json_class": "Chef::Environment",
   "chef_type": "environment",
@@ -31,6 +32,21 @@
     "firewall": {
       "firewalld": {
         "permanent": true
+      }
+    },
+    "mywrapper_chef-slack_handler": {
+      "webhooks": {
+        "list": [
+          "family_test_notify"
+        ]
+      }
+    },
+    "chef_client": {
+      "handler": {
+        "slack": {
+          "fail_only": false,
+          "send_start_message": true
+        }
       }
     }
   }
