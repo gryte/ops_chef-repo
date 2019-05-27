@@ -12,5 +12,10 @@
     "recipe[mywrapper_chef_client_updater::default]"
   ],
   "override_attributes": {
+    "chef_client": {
+      "config": {
+        "license": "accept"    
+      }
+    }
   }
 }
